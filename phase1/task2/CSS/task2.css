@@ -16,6 +16,11 @@ body {
     
 }
 
+input[type="text"],input[type="password"],textarea,select {
+    font-size:16px;
+}
+
+
 .nav {
     background-color: #333333;
 }
@@ -27,19 +32,7 @@ body {
     height: 60px;
 }
 
-.foot {
-    background-color: #333333;
-}
 
-.foot p {
-    position: relative;
-    margin: 0 auto;
-    width: 1200px;
-    height: 60px;
-    color: #FFF;
-    text-align: center;
-    line-height: 60px;
-}
 
 .navcontent img {
     position: absolute;
@@ -73,6 +66,20 @@ body {
 .navcontent a:active {
     color: #F7B9B9;
     text-decoration: underline;
+}
+
+.foot {
+    background-color: #333333;
+}
+
+.foot p {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 60px;
+    color: #FFF;
+    text-align: center;
+    line-height: 60px;
 }
 
 .container {
@@ -180,7 +187,7 @@ td {
 }
 
 .form-row {
-    width:500px;
+    width:90%;
     margin:30px auto;
     overflow: hidden;
     
@@ -191,17 +198,17 @@ td {
 }
 
 .form-row .rowgroup .rowgroup-desc {
-    width: 150px;
+    width: 30%;
     text-align: right;
     display: inline-block;
 }
 .form-row .rowgroup .rowgroup-func {
+    
     text-align: left;
-    width: 200px;
     display: inline-block;
 }
 .form-row .row-inst{
-    width:348px;
+    width:70%;
     float:right;
     text-align:left;
     color:#A9A9A9;
@@ -209,6 +216,21 @@ td {
 .desc-top{
     vertical-align:top;
 
+}
+ .bigbutton{
+    width:100%;
+    height: 40px;
+    background: blue;
+    border-radius:10px;
+    color:#FFF;
+    font-size:20px;
+    font-weight:900;
+    font-family: "黑体", Helvetica, Arial, sans-serif;
+}
+.descarea{
+    width:69%;
+    height:200px;
+    
 }
 
 

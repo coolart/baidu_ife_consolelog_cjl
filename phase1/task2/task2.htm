@@ -156,11 +156,11 @@
                 <div class="form-row">
                     <div class="rowgroup">
                         <label for="password" class="rowgroup-desc">请输入密码:</label>
-                        <input type="password" id="password" class="rowgroup-func" placeholder="这是一个文本输入框">
+                        <input type="password" id="password" class="rowgroup-func" value="这是一个密码框">
                     </div>
                     <div class="rowgroup">
                         <label for="passwordconfirm" class="rowgroup-desc">请重复输入密码:</label>
-                        <input type="password" id="passwordconfirm" class="rowgroup-func" placeholder="这是一个文本输入框">
+                        <input type="password" id="passwordconfirm" class="rowgroup-func" value="这是一个密码框">
                     </div>
                     <p class="row-inst">密码请为6-16位英文数字:</p>
                 </div>
@@ -195,10 +195,13 @@
                     </div>
                     <div class="rowgroup">
                         <label for="desc" class="rowgroup-desc desc-top">个人描述:</label>
-                        <textarea id="desc" class="rowgroup-func">这是一个多行输入域，输入您的个人描述</textarea>
+                        <textarea id="desc"  rows="10" class="descarea">这是一个多行输入域，输入您的个人描述</textarea>
                     </div>
-                    <input type="button" name="submit" value="确认提交">
+                    
+                    
+                    
                 </div>
+                    <input type="button" class="bigbutton" name="submit" value="确认提交">
             </form>
         </section>
     </div>
