@@ -63,6 +63,7 @@ div img{
 .colum-center{
     margin-right:140px;
     margin-left:220px;
+    min-width:400px;
 }
 
 
