@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+</body>
+
+</html>
+<script type="text/javascript">
+function solution(arg) {
+    var biger, bigest = arg[0];
+    for (var i = 1; i < arg.length; i++) {
+        if (bigest <= arg[i]) {
+            biger = bigest;
+            bigest = arg[i];
+
+        }
+        console.log(biger + " " + bigest);
+    }
+    console.log("final " + biger + " " + bigest);
+}
+
+function solution_2(array) {
+    console.log(array)
+    if (array.length > 1) {
+        if (arguments.length == 1) {
+            solution_2(array.join().replace(new RegExp(array[0], 'gm'), ",").replace(/,,/g, "").split(","), array[0], array[0])
+        } else if (arguments[2] <= array[0]) {
+            solution_2(array.join().replace(new RegExp(array[0], 'gm'), ",").replace(/,,/g, "").split(","), arguments[2], array[0])
+        }
+
+    } else {
+        console.log(arguments[1] + " " + arguments[2])
+
+
+    }
+
+
+}
+function solution_3(array){
+	var maxnum = Math.max.apply(null,array);
+	var secmaxnum 
+
+}
+
+
+//console.log(solution_2([1,2,3,6,7,1,2,3,4],0,0));
+//
+//
+var testarray = [1, 2, 3, 6, 7, 7, 2, 3, 8];
+solution(testarray);
+solution_2(testarray);
+</script>

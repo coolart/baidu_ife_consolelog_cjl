@@ -28,6 +28,7 @@ div img{
 .container {
     border: 1px solid #999;
     width: auto;
+    height:auto;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -36,15 +37,12 @@ div img{
     overflow:auto;
 
 }
-.container div {
-    border: 1px solid #999;
-    padding: 20px;
-    background-color: #FFF;
-    
-}
+
 .column-left {
     width: 158px;
-   	display:inline-block;
+    border: 1px solid #999;
+    background-color: #FFF;    
+    padding: 20px;
     float:left;
 }
 .column-left img {
@@ -53,14 +51,20 @@ div img{
 .column-left .logodesc {
     font-family: "黑体", Helvetica, Arial, sans-serif;
     font-weight: 900;
-    display: inline;
+    display:inline-block;
     vertical-align: top;
 }
 .colum-right{
+    border: 1px solid #999;
+    background-color: #FFF;    
+    padding: 20px;
     width: 78px;
     float:right;
 }
 .colum-center{
+    border: 1px solid #999;
+    background-color: #FFF;    
+    padding: 20px;
     margin-right:140px;
     margin-left:220px;
     min-width:400px;
